@@ -1,0 +1,54 @@
+[
+  {
+    "id": "agent_1",
+    "name": "内容策划 Agent",
+    "description": "负责视频内容策划和选题分析",
+    "model": "qwen3.5-plus",
+    "status": "idle",
+    "tasksCompleted": 15,
+    "tasksRunning": 0,
+    "createdAt": "2026-02-26T04:12:48.240Z"
+  },
+  {
+    "id": "agent_2",
+    "name": "脚本写作 Agent",
+    "description": "负责撰写视频脚本和台词",
+    "model": "qwen3.5-plus",
+    "status": "busy",
+    "tasksCompleted": 12,
+    "tasksRunning": 1,
+    "createdAt": "2026-02-26T04:12:48.241Z"
+  },
+  {
+    "id": "agent_3",
+    "name": "运营推广 Agent",
+    "description": "负责发布策略和数据分析",
+    "model": "qwen3.5-plus",
+    "status": "idle",
+    "tasksCompleted": 10,
+    "tasksRunning": 0,
+    "createdAt": "2026-02-26T04:12:48.241Z"
+  },
+  {
+    "id": "agent_1772079167973",
+    "name": "测试 Agent",
+    "description": "用于功能测试",
+    "model": "qwen3.5-plus",
+    "status": "idle",
+    "tasksCompleted": 0,
+    "tasksRunning": 0,
+    "sessionKey": null,
+    "createdAt": "2026-02-26T04:12:47.973Z"
+  },
+  {
+    "id": "agent_1772079459808",
+    "name": "测试 1",
+    "description": "无",
+    "model": "qwen3-coder-plus",
+    "status": "idle",
+    "tasksCompleted": 0,
+    "tasksRunning": 0,
+    "sessionKey": null,
+    "createdAt": "2026-02-26T04:17:39.808Z"
+  }
+]
