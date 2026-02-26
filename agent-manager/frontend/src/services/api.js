@@ -2,8 +2,8 @@ import axios from 'axios'
 
 // 创建 axios 实例
 const api = axios.create({
-  baseURL: 'http://127.0.0.1:3001/api',
-  timeout: 5000, // 降低超时时间到 5 秒
+  baseURL: '/api', // Vercel 使用相对路径
+  timeout: 10000,
   headers: {
     'Content-Type': 'application/json'
   }

@@ -10,6 +10,7 @@ package-lock.json
 # 构建输出
 dist/
 build/
+.vercel/
 
 # 日志
 logs/
@@ -28,3 +29,6 @@ Thumbs.db
 
 # 数据文件
 data/*.json
+
+# 后端（Vercel 用 api/ 目录）
+backend/
